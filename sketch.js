@@ -13,7 +13,7 @@ function preload()
 	bgImg = loadImage("images/starNight.png");
 	//load animation for fairy here
 	fairyImage=loadAnimation("images/fairyImage1.png", "images/fairyImage2.png");
-	music=loadSound("sound/JoyMusic.mp3");
+	
 }
 
 function setup() {
@@ -60,7 +60,7 @@ function draw() {
   fairy.collide(invisibleBarrierR);
   star.collide(invisibleBarrierD);
   fairy.collide(invisibleBarrierL);
-  //music.play();
+ 
   star.x= starBody.position.x 
   star.y= starBody.position.y 
 
